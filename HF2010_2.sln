@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HF1", "HF1\HF1.vcxproj", "{F8AF8BF5-746E-46CB-B32F-CB803020225D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HF2", "HF2\HF2.vcxproj", "{EC7B053A-332E-47A9-85B0-592E54B18513}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HF3", "HF3\HF3.vcxproj", "{1FD672C0-0445-46A1-B321-640F36C8D25C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HF4", "HF4\HF4.vcxproj", "{408D2BC1-68FC-4BB7-8454-A9C9EBA4C3DA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HF5", "HF5\HF5.vcxproj", "{76523450-55D8-462D-8E5A-2579C671D722}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{349A959A-24D2-4E20-ABF5-EF207F033675}"
+	ProjectSection(SolutionItems) = preProject
+		cg_template_2010_spring.cpp = cg_template_2010_spring.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "glut-3.7.6-bin", "glut-3.7.6-bin", "{68106DC1-3295-48CA-8624-A8123BBBF513}"
+	ProjectSection(SolutionItems) = preProject
+		glut-3.7.6-bin\glut32.dll = glut-3.7.6-bin\glut32.dll
+		glut-3.7.6-bin\glut32.lib = glut-3.7.6-bin\glut32.lib
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GL", "GL", "{A01D722C-61EC-4B99-BEE8-DBD737A6A3D5}"
+	ProjectSection(SolutionItems) = preProject
+		glut-3.7.6-bin\GL\glut.h = glut-3.7.6-bin\GL\glut.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8AF8BF5-746E-46CB-B32F-CB803020225D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8AF8BF5-746E-46CB-B32F-CB803020225D}.Debug|Win32.Build.0 = Debug|Win32
+		{F8AF8BF5-746E-46CB-B32F-CB803020225D}.Release|Win32.ActiveCfg = Release|Win32
+		{F8AF8BF5-746E-46CB-B32F-CB803020225D}.Release|Win32.Build.0 = Release|Win32
+		{EC7B053A-332E-47A9-85B0-592E54B18513}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC7B053A-332E-47A9-85B0-592E54B18513}.Debug|Win32.Build.0 = Debug|Win32
+		{EC7B053A-332E-47A9-85B0-592E54B18513}.Release|Win32.ActiveCfg = Release|Win32
+		{EC7B053A-332E-47A9-85B0-592E54B18513}.Release|Win32.Build.0 = Release|Win32
+		{1FD672C0-0445-46A1-B321-640F36C8D25C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1FD672C0-0445-46A1-B321-640F36C8D25C}.Debug|Win32.Build.0 = Debug|Win32
+		{1FD672C0-0445-46A1-B321-640F36C8D25C}.Release|Win32.ActiveCfg = Release|Win32
+		{1FD672C0-0445-46A1-B321-640F36C8D25C}.Release|Win32.Build.0 = Release|Win32
+		{408D2BC1-68FC-4BB7-8454-A9C9EBA4C3DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{408D2BC1-68FC-4BB7-8454-A9C9EBA4C3DA}.Debug|Win32.Build.0 = Debug|Win32
+		{408D2BC1-68FC-4BB7-8454-A9C9EBA4C3DA}.Release|Win32.ActiveCfg = Release|Win32
+		{408D2BC1-68FC-4BB7-8454-A9C9EBA4C3DA}.Release|Win32.Build.0 = Release|Win32
+		{76523450-55D8-462D-8E5A-2579C671D722}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76523450-55D8-462D-8E5A-2579C671D722}.Debug|Win32.Build.0 = Debug|Win32
+		{76523450-55D8-462D-8E5A-2579C671D722}.Release|Win32.ActiveCfg = Release|Win32
+		{76523450-55D8-462D-8E5A-2579C671D722}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A01D722C-61EC-4B99-BEE8-DBD737A6A3D5} = {68106DC1-3295-48CA-8624-A8123BBBF513}
+	EndGlobalSection
+EndGlobal
